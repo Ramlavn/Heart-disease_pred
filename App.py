@@ -8,10 +8,10 @@ model = pickle.load(open('Heart_disease_pred_two.pkl', 'rb'))
 
 # Mapping for Chest Pain Type
 chest_pain_type_map = {
-    1: 'Typical Angina',
-    2: 'Atypical Angina',
-    3: 'Non-Anginal Type',
-    4: 'Asymptomatic'
+    1: 'Stable Angina',
+    2: 'Unstable Angina',
+    3: 'Variant Angina',
+    4: 'Microvascular Angina'
 }
 
 Sex = {
